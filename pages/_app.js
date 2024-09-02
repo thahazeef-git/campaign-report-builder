@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <meta name="description" content="Campaign Report Builder"></meta>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kaushan+Script&display=swap" rel="stylesheet" />
+      <link rel="icon" href="https://drbgg29kvmub6.cloudfront.net/assets/animationFiles/zocket.svg" />
       <title>Campaign Report Builder</title>
     </Head>
     <Component {...pageProps} />
