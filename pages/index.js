@@ -47,9 +47,7 @@ const ReportBuilder = () => {
       return;
     }
     if (!user) {
-      router.push('/login').then(() => {
-        alert('User not authenticated');
-      });
+      router.push('/login');
     }
   }, [user, loading]);
 
